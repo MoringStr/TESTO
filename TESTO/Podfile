@@ -11,7 +11,7 @@ target 'TESTO' do
 
   # Pods for TESTO
 
-  pod 'SDWebImage', '~> 3.7.5'
+ # pod 'SDWebImage', '~> 3.7.5'
 
   target 'TESTOTests' do
     inherit! :search_paths
