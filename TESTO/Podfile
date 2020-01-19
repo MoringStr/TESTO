@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+
+target 'TESTO' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TESTO
+
+  pod 'SDWebImage', '~> 3.7.5'
+
+  target 'TESTOTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TESTOUITests' do
+    # Pods for testing
+  end
+
+end
